@@ -1,0 +1,38 @@
+[
+    {
+        "id":"12",
+        "productImg":"shirts/1.jpg",
+        "productName":"Black Shirt",
+        "productPrice":"23"
+    },
+    {
+        "id":"13",
+        "productImg":"shirts/5.jpg",
+        "productName":"Blue Shirt",
+        "productPrice":"25"
+    },
+    {
+        "id":"14",
+        "productImg":"shirts/2.jpg",
+        "productName":"Pink Shirt",
+        "productPrice":"19"
+    },
+    {
+        "id":"15",
+        "productImg":"shirts/3.jpg",
+        "productName":"Purple Shirt",
+        "productPrice":"15"
+    },
+    {
+        "id":"16",
+        "productImg":"shirts/4.jpg",
+        "productName":"White shirt",
+        "productPrice":"30"
+    },
+    {
+        "id":"17",
+        "productImg":"shirts/6.jpg",
+        "productName":"Dark Purple Shirt",
+        "productPrice":"17"
+    }
+]

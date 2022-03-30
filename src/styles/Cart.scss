@@ -1,0 +1,44 @@
+.cart{
+    margin: 5vh auto 5vh auto;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    min-height: 500px;
+}
+
+.CartProduct{
+    height: 10vh;
+    display: flex;
+    flex-grow: 1;
+    justify-content:space-around;
+    max-width: 90%;
+    padding: 5vh;
+    border-bottom: 2px solid;
+    h2{
+        font-size: 3vh;
+
+    }
+    h3{
+        font-size: 3vh;
+    }
+    img{
+        height: 140%;
+    }
+    .button{
+        height: 30%;
+    }
+}
+.my-node-enter {
+    opacity: 0;
+  }
+  .my-node-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+  }
+  .my-node-exit {
+    opacity: 1;
+  }
+  .my-node-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+  }

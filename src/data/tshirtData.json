@@ -1,0 +1,38 @@
+[
+    {
+        "id":"0",
+        "productImg":"t-shirts/1.jpg",
+        "productName":"White T-shirt",
+        "productPrice":"19"
+    },
+    {
+        "id":"1",
+        "productImg":"t-shirts/2.jpg",
+        "productName":"Black T-shirt",
+        "productPrice":"20"
+    },
+    {
+        "id":"2",
+        "productImg":"t-shirts/3.jpg",
+        "productName":"Blue T-shirt",
+        "productPrice":"40"
+    },
+    {
+        "id":"3",
+        "productImg":"t-shirts/4.jpg",
+        "productName":"Yellow T-shirt",
+        "productPrice":"34"
+    },
+    {
+        "id":"4",
+        "productImg":"t-shirts/5.jpg",
+        "productName":"Pink T-shirt",
+        "productPrice":"25"
+    },
+    {
+        "id":"5",
+        "productImg":"t-shirts/6.jpg",
+        "productName":"Brown T-shirt",
+        "productPrice":"20"
+    }
+]

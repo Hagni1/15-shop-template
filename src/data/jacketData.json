@@ -1,0 +1,38 @@
+[
+    {
+        "id":"24",
+        "productImg":"jackets/1.jpg",
+        "productName":"Red Jacket",
+        "productPrice":"30"
+    },
+    {
+        "id":"25",
+        "productImg":"jackets/2.jpg",
+        "productName":"Orange Jacket",
+        "productPrice":"24"
+    },
+    {
+        "id":"26",
+        "productImg":"jackets/3.jpg",
+        "productName":"Blue Jacket",
+        "productPrice":"65"
+    },
+    {
+        "id":"27",
+        "productImg":"jackets/4.jpg",
+        "productName":"Yellow Jacket",
+        "productPrice":"55"
+    },
+    {
+        "id":"28",
+        "productImg":"jackets/5.jpg",
+        "productName":"Blue Camo Jacket",
+        "productPrice":"75"
+    },
+    {
+        "id":"29",
+        "productImg":"jackets/6.jpg",
+        "productName":"Brown Jacket",
+        "productPrice":"45"
+    }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "0",
+    "sectionName": "T-shirts",
+    "imgLink": "images/products/t-shirts/7.jpg",
+    "sectionPosition": "left",
+    "sectionLink":"tshirt"
+    
+  },
+  {
+    "id": "1",
+    "sectionName": "Shirts",
+    "imgLink": "images/products/shirts/7.jpg",
+    "sectionPosition": "right",
+    "sectionLink":"shirt"
+    
+  },
+  {
+    "id": "2",
+    "sectionName": "Pants",
+    "imgLink": "images/products/pants/7.jpg",
+    "sectionPosition": "left",
+    "sectionLink":"pants"
+  },
+  {
+    "id": "3",
+    "sectionName": "Hoodies",
+    "imgLink": "images/products/hoodies/7.jpg",
+    "sectionPosition": "right",
+    "sectionLink":"hoodies"
+  },
+  {
+    "id": "4",
+    "sectionName": "Skirts",
+    "imgLink": "images/products/skirts/7.jpg",
+    "sectionPosition": "left",
+    "sectionLink":"skirts"
+  },
+  {
+    "id": "5",
+    "sectionName": "Jackets",
+    "imgLink": "images/products/jackets/7.jpg",
+    "sectionPosition": "right",
+    "sectionLink":"jackets"
+  }
+]

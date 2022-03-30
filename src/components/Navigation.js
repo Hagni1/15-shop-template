@@ -1,38 +1,36 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { NavLink, } from "react-router-dom";
-import logo from '../images/logo.png'
-import '../styles/Navigation.css'
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
+import logo from "../images/logo.png";
+import "../styles/Navigation.scss";
+import navigationData from '../data/navigationData.json'
+import { ShoppingContext } from "./App";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import NavigationItem from "./NavigationItem";
+import HamburgerMenu from "./HamburgerMenu";
 
 const Navigation = () => {
-    return ( 
-        <nav className='Navigation'>
-            <Link to='/'> <img src={logo} alt='logo'/> </Link>
-            <ul>
-                <li>
-                    <NavLink to='/'> Strona główna</NavLink>
-                </li>
-                <li>
-                    <NavLink to='/tshirt'> T-shirty</NavLink>
-                </li>
-                <li>
-                    <NavLink to='/shirts'> Koszule i Bluzki</NavLink>
-                </li>
-                <li>
-                    <NavLink to='/pants'> Spodnie </NavLink>
-                </li>
-                <li>
-                    <NavLink to='/hoodies'> Bluzy</NavLink>
-                </li>
-                <li>
-                    <NavLink to='/skirts'> Sukienki i Spódnice</NavLink>
-                </li>
-                <li>
-                    <NavLink to='/jackets'> Kurtki i Marynarki</NavLink>
-                </li>
-            </ul>
-        </nav>
-     );
-}
- 
+  const { shoppingCart } = useContext(ShoppingContext);
+  const totalCount = shoppingCart.reduce((a, c) => a + c.count, 0);
+  return (
+
+    <nav className="Navigation">
+      <div class='iconsWrapper'>
+      <Link to="/cart" className="cartIcon">
+        {totalCount}
+        <FontAwesomeIcon icon={faShoppingCart} />
+      </Link>
+      <HamburgerMenu/>
+      </div>
+      <Link to="/" className="logo">
+        {" "}
+        <img src={logo} alt="logo" />{" "}
+      </Link>
+      <ul>
+    {navigationData.map(data=> <NavigationItem key={data.navName} navLink={data.navLink} navName={data.navName}/>)}
+      </ul>
+    </nav>
+  );
+};
+
 export default Navigation;

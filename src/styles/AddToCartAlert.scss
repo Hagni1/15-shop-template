@@ -1,0 +1,14 @@
+.alert{
+    position: fixed;
+    left: 40%;
+    @media (max-width: 768px){
+     top:80%;
+       }
+    top: 90%;
+    z-index: 1;
+    width: 20%;
+    height: 100px;
+    p{
+        font-size: 2vh;
+    }
+}

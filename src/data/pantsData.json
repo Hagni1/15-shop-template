@@ -1,0 +1,38 @@
+[
+    {
+        "id":"18",
+        "productImg":"pants/1.jpg",
+        "productName":"White Pants",
+        "productPrice":"34"
+    },
+    {
+        "id":"19",
+        "productImg":"pants/2.jpg",
+        "productName":"Light Brown Pants",
+        "productPrice":"34"
+    },
+    {
+        "id":"20",
+        "productImg":"pants/3.jpg",
+        "productName":"Black Pants",
+        "productPrice":"34"
+    },
+    {
+        "id":"21",
+        "productImg":"pants/4.jpg",
+        "productName":"Brown Pants",
+        "productPrice":"34"
+    },
+    {
+        "id":"22",
+        "productImg":"pants/5.jpg",
+        "productName":"Blue Pants",
+        "productPrice":"34"
+    },
+    {
+        "id":"23",
+        "productImg":"pants/6.jpg",
+        "productName":"Dark Brown Pants",
+        "productPrice":"34"
+    }
+]

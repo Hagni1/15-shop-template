@@ -1,0 +1,34 @@
+[
+    {
+        "path":"",
+        "element":"Home"
+    },
+    {
+        "path":"tshirt",
+        "element":"Tshirt"
+    },
+    {
+        "path":"shirts",
+        "element":"Shirts"
+    },
+    {
+        "path":"pants",
+        "element":"Pants"
+    },
+    {
+        "path":"hoodies",
+        "element":"Hoodies"
+    },
+    {
+        "path":"skirts",
+        "element":"Skirts"
+    },
+    {
+        "path":"jackets",
+        "element":"Jackets"
+    },
+    {
+        "path":"cart",
+        "element":"Cart"
+    }
+]

@@ -1,0 +1,26 @@
+.footerWrapper{
+
+    font-size: 2vh;
+    max-height: 100px;
+    min-height: 100px;
+    width: 100%;
+    padding: 2vw 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    img{
+        max-height: 100px;
+    }
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #222;
+    color: white;
+    p{
+        text-align: center;
+    }
+}

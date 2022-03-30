@@ -1,0 +1,30 @@
+[
+    {
+        "navLink":"",
+        "navName":"Home"
+    },
+    {
+        "navLink":"tshirt",
+        "navName":"T-shirt"
+    },
+    {
+        "navLink":"shirts",
+        "navName":"Shirts"
+    },
+    {
+        "navLink":"pants",
+        "navName":"Pants"
+    },
+    {
+        "navLink":"hoodies",
+        "navName":"Hoodies"
+    },
+    {
+        "navLink":"skirts",
+        "navName":"Skirts"
+    },
+    {
+        "navLink":"jackets",
+        "navName":"Jackets"
+    }
+]
