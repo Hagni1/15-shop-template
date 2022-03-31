@@ -8,7 +8,7 @@ const Cart = () => {
   const { shoppingCart } = useContext(ShoppingContext);
   return (
     <main className="cart">
-      {shoppingCart.length === 0 && <h1>Twój koszyk jest pusty</h1>}
+      {shoppingCart.length === 0 && <h1>Your cart is empty</h1>}
       <TransitionGroup>
       {shoppingCart.map((product) => (
          <CSSTransition   key={product.id} timeout={200} classNames="my-node">

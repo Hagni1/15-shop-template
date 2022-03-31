@@ -8,7 +8,6 @@ const RenderSection = ({
   sectionLink,
 }) => {
   const Content = () => {
-    console.log(sectionLink)
     if (sectionPosition === "right") {
       return (
         <>

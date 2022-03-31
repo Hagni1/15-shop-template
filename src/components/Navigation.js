@@ -15,7 +15,7 @@ const Navigation = () => {
   return (
 
     <nav className="Navigation">
-      <div class='iconsWrapper'>
+      <div className='iconsWrapper'>
       <Link to="/cart" className="cartIcon">
         {totalCount}
         <FontAwesomeIcon icon={faShoppingCart} />

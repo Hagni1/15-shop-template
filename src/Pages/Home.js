@@ -4,7 +4,6 @@ import data from "../data/homeData.json";
 import RenderSection from "../components/RenderSection";
 
 const Home = () => {
-  console.log(data)
   return (
     <>
       <header className="homee">

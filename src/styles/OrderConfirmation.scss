@@ -1,0 +1,20 @@
+.orderConfirmation{
+    border-radius: 5vh;
+    padding: 2vh 2vw;
+    position: fixed;
+    z-index: 1;
+    top: 20vh;
+    left:25vw;
+    width: 50vw;
+    height: 40vh;
+    background-color: #909090;
+}
+.buttonOrderConfirmation{
+    height: 3vh;
+    float: right;
+    p{
+        font-size: 3vh;
+        color: black;
+        
+    }
+}

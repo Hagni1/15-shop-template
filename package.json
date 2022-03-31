@@ -24,10 +24,11 @@
     "react-transition-group": "^4.4.2",
     "sass": "^1.49.9",
     "styled-components": "^5.3.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "https://hagni1.github.io/15-shop-template"
+    
   },
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
