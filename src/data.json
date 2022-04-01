@@ -1,0 +1,337 @@
+[
+    {
+        "section":"products",
+        "data":[
+            {
+                "section": "tshirt",
+                "data": [
+                  {
+                    "id": "0",
+                    "productImg": "t-shirts/1.jpg",
+                    "productName": "White T-shirt",
+                    "productPrice": "19"
+                  },
+                  {
+                    "id": "1",
+                    "productImg": "t-shirts/2.png",
+                    "productName": "Black T-shirt",
+                    "productPrice": "20"
+                  },
+                  {
+                    "id": "2",
+                    "productImg": "t-shirts/3.jpg",
+                    "productName": "Blue T-shirt",
+                    "productPrice": "40"
+                  },
+                  {
+                    "id": "3",
+                    "productImg": "t-shirts/4.jpg",
+                    "productName": "Yellow T-shirt",
+                    "productPrice": "34"
+                  },
+                  {
+                    "id": "4",
+                    "productImg": "t-shirts/5.jpg",
+                    "productName": "Pink T-shirt",
+                    "productPrice": "25"
+                  },
+                  {
+                    "id": "5",
+                    "productImg": "t-shirts/6.jpg",
+                    "productName": "Brown T-shirt",
+                    "productPrice": "20"
+                  }
+                ]
+              },
+              {
+                "section": "shirts",
+                "data": [
+                  {
+                    "id": "12",
+                    "productImg": "shirts/1.jpg",
+                    "productName": "Black Shirt",
+                    "productPrice": "23"
+                  },
+                  {
+                    "id": "13",
+                    "productImg": "shirts/5.jpg",
+                    "productName": "Blue Shirt",
+                    "productPrice": "25"
+                  },
+                  {
+                    "id": "14",
+                    "productImg": "shirts/2.jpg",
+                    "productName": "Pink Shirt",
+                    "productPrice": "19"
+                  },
+                  {
+                    "id": "15",
+                    "productImg": "shirts/3.jpg",
+                    "productName": "Purple Shirt",
+                    "productPrice": "15"
+                  },
+                  {
+                    "id": "16",
+                    "productImg": "shirts/4.jpg",
+                    "productName": "White shirt",
+                    "productPrice": "30"
+                  },
+                  {
+                    "id": "17",
+                    "productImg": "shirts/6.jpg",
+                    "productName": "Dark Purple Shirt",
+                    "productPrice": "17"
+                  }
+                ]
+              },
+              {
+                "section": "pants",
+                "data": [
+                  {
+                    "id": "18",
+                    "productImg": "pants/1.jpg",
+                    "productName": "White Pants",
+                    "productPrice": "30"
+                  },
+                  {
+                    "id": "19",
+                    "productImg": "pants/2.jpg",
+                    "productName": "Light Brown Pants",
+                    "productPrice": "32"
+                  },
+                  {
+                    "id": "20",
+                    "productImg": "pants/3.jpg",
+                    "productName": "Black Pants",
+                    "productPrice": "35"
+                  },
+                  {
+                    "id": "21",
+                    "productImg": "pants/4.jpg",
+                    "productName": "Brown Pants",
+                    "productPrice": "39"
+                  },
+                  {
+                    "id": "22",
+                    "productImg": "pants/5.jpg",
+                    "productName": "Blue Pants",
+                    "productPrice": "21"
+                  },
+                  {
+                    "id": "23",
+                    "productImg": "pants/6.jpg",
+                    "productName": "Dark Brown Pants",
+                    "productPrice": "36"
+                  }
+                ]
+              },
+              {
+                "section": "hoodies",
+                "data": [
+                  {
+                    "id": "30",
+                    "productImg": "hoodies/1.jpg",
+                    "productName": "Orange Hoodie",
+                    "productPrice": "42"
+                  },
+                  {
+                    "id": "31",
+                    "productImg": "hoodies/2.jpg",
+                    "productName": "White Hoodie",
+                    "productPrice": "34"
+                  },
+                  {
+                    "id": "32",
+                    "productImg": "hoodies/3.jpg",
+                    "productName": "Yellow Hoodie",
+                    "productPrice": "32"
+                  },
+                  {
+                    "id": "33",
+                    "productImg": "hoodies/4.jpg",
+                    "productName": "Green Hoodie",
+                    "productPrice": "42"
+                  },
+                  {
+                    "id": "34",
+                    "productImg": "hoodies/5.jpg",
+                    "productName": "Red Hoodie",
+                    "productPrice": "45"
+                  },
+                  {
+                    "id": "35",
+                    "productImg": "hoodies/6.jpg",
+                    "productName": "Blue Hoodie",
+                    "productPrice": "40"
+                  }
+                ]
+              },
+              {
+                "section": "skirts",
+                "data": [
+                  {
+                    "id": "6",
+                    "productImg": "skirts/1.jpg",
+                    "productName": "Black Shirt",
+                    "productPrice": "9"
+                  },
+                  {
+                    "id": "7",
+                    "productImg": "skirts/2.jpg",
+                    "productName": "white Shirt",
+                    "productPrice": "12"
+                  },
+                  {
+                    "id": "8",
+                    "productImg": "skirts/3.jpg",
+                    "productName": "Blue Shirt",
+                    "productPrice": "7"
+                  },
+                  {
+                    "id": "9",
+                    "productImg": "skirts/4.jpg",
+                    "productName": "Orange Shirt",
+                    "productPrice": "20"
+                  },
+                  {
+                    "id": "10",
+                    "productImg": "skirts/5.jpg",
+                    "productName": "Purple Shirt",
+                    "productPrice": "18"
+                  },
+                  {
+                    "id": "11",
+                    "productImg": "skirts/6.jpg",
+                    "productName": "Grey Shirt",
+                    "productPrice": "12"
+                  }
+                ]
+              },
+              {
+                "section": "jackets",
+                "data": [
+                  {
+                    "id": "24",
+                    "productImg": "jackets/1.jpg",
+                    "productName": "Red Jacket",
+                    "productPrice": "30"
+                  },
+                  {
+                    "id": "25",
+                    "productImg": "jackets/2.jpg",
+                    "productName": "Orange Jacket",
+                    "productPrice": "24"
+                  },
+                  {
+                    "id": "26",
+                    "productImg": "jackets/3.jpg",
+                    "productName": "Blue Jacket",
+                    "productPrice": "65"
+                  },
+                  {
+                    "id": "27",
+                    "productImg": "jackets/4.jpg",
+                    "productName": "Yellow Jacket",
+                    "productPrice": "55"
+                  },
+                  {
+                    "id": "28",
+                    "productImg": "jackets/5.jpg",
+                    "productName": "Blue Camo Jacket",
+                    "productPrice": "75"
+                  },
+                  {
+                    "id": "29",
+                    "productImg": "jackets/6.jpg",
+                    "productName": "Brown Jacket",
+                    "productPrice": "45"
+                  }
+                ]
+              }
+            ]
+            
+         
+    },{
+        "section":"navigationData",
+        "data":[
+            {
+                "navLink":"",
+                "navName":"Home"
+            },
+            {
+                "navLink":"tshirt",
+                "navName":"T-shirt"
+            },
+            {
+                "navLink":"shirts",
+                "navName":"Shirts"
+            },
+            {
+                "navLink":"pants",
+                "navName":"Pants"
+            },
+            {
+                "navLink":"hoodies",
+                "navName":"Hoodies"
+            },
+            {
+                "navLink":"skirts",
+                "navName":"Skirts"
+            },
+            {
+                "navLink":"jackets",
+                "navName":"Jackets"
+            }
+        ]
+    },
+    {
+        "section":"home",
+        "data":[
+            {
+              "id": "0",
+              "sectionName": "T-shirts",
+              "imgLink": "images/products/t-shirts/7.jpg",
+              "sectionPosition": "left",
+              "sectionLink":"tshirt"
+              
+            },
+            {
+              "id": "1",
+              "sectionName": "Shirts",
+              "imgLink": "images/products/shirts/7.jpg",
+              "sectionPosition": "right",
+              "sectionLink":"shirts"
+              
+            },
+            {
+              "id": "2",
+              "sectionName": "Pants",
+              "imgLink": "images/products/pants/7.jpg",
+              "sectionPosition": "left",
+              "sectionLink":"pants"
+            },
+            {
+              "id": "3",
+              "sectionName": "Hoodies",
+              "imgLink": "images/products/hoodies/7.jpg",
+              "sectionPosition": "right",
+              "sectionLink":"hoodies"
+            },
+            {
+              "id": "4",
+              "sectionName": "Skirts",
+              "imgLink": "images/products/skirts/7.jpg",
+              "sectionPosition": "left",
+              "sectionLink":"skirts"
+            },
+            {
+              "id": "5",
+              "sectionName": "Jackets",
+              "imgLink": "images/products/jackets/7.jpg",
+              "sectionPosition": "right",
+              "sectionLink":"jackets"
+            }
+          ]
+          
+    }
+]

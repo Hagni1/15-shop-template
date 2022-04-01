@@ -1,15 +1,16 @@
-.cartSummary{
-    display: flex;
-    justify-content:end;
-    font-size: 3vh;
-    margin: 1vh 7vh;
-    text-align: center;
-    align-items: center;
-    h2{
-        margin-right: 2vw;
+.cartSummary {
+  display: flex;
+  justify-content: end;
+  font-size: 3vh;
+  margin: 1vh 7vh;
+  text-align: center;
+  align-items: center;
+  h2 {
+    margin-right: 2vw;
+  }
+  .buttonCartSummary {
+    span{
+      color: white;
     }
-    .buttonCartSummary{
-        height: 70%;
-
-    }
+  }
 }

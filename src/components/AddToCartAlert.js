@@ -1,20 +1,28 @@
 import { Alert } from "@mui/material";
 import React, { useContext, useEffect, useRef, useState } from "react";
-import { ShoppingContext } from "./App";
+import { ShoppingContext } from "../App";
 import "../styles/AddToCartAlert.scss";
 
 const AddToCartAlert = () => {
   const [showElement, setShowElement] = useState(false);
   const { shoppingCart } = useContext(ShoppingContext);
   const didMount = useRef(false);
+
   useEffect(() => {
     setTimeout(function () {
       setShowElement(false);
     }, 3000);
   }, [shoppingCart]);
+
   useEffect(() => {
-    if (didMount.current) {
+    if (
+      didMount.current &&
+      shoppingCart.length !==
+        JSON.parse(localStorage.getItem("shopCart")).length
+    ) {
       setShowElement(true);
+      console.log(localStorage.getItem("shopCart"), "local");
+      console.log(shoppingCart.length, "cart");
     } else {
       didMount.current = true;
     }

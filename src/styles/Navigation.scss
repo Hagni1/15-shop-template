@@ -5,38 +5,51 @@
   @media (min-width: 768px){
     width: 80%;
   }
+  @media (max-width: 1100px){
+    width: 90%;
+  }
   margin-left: auto;
   margin-right: auto;
   img{
     margin-left: auto;
     margin-right: auto;
     justify-self: center;
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 15vh;
+    max-width: 30vw;
   }
   ul{
+
     @media (max-width: 768px){
      display: none;
+    }
+    @media (max-width: 1100px){
+      font-size: 2vh;
     }
     display: flex;
     justify-content: space-between;
     list-style: none;
     font-size: 3vh;
+    margin-bottom: 4vh;
     li{
 
       &:hover {
-        transition: 0.3s ease-in-out;
-        transform: scaleY(1.05);
-        transform: scaleX(1.05);
+        transition: 0.15s ease-in-out;
+        transform: translateY(-15%);
+        
       }
     }
     a{
       text-decoration: none;
-      color: grey;
-      opacity: 0.8;
-      &:hover{
+    color: #000;
+     background-color: #E0E2DB;
+     border-radius: 1vh;
+     padding: 2vh;
+
+     opacity: 0.8;
+     &:hover{
         @media (min-width: 768px){
           color: #000;
+          border-bottom: 5px solid black;
         }
       }
     }
@@ -44,18 +57,20 @@
 }
 .active {
   @media (min-width: 768px){
-    border-bottom: 3px solid black;
+    color: white !important;
+    background-color: #a5b3b0 !important;
   }
 }
 .cartIcon{
   padding: 30px 15px;
-    font-size: 5vh;
+    font-size: 3vh;
     color: black;
     text-decoration: none;
 }
 .logo{
     margin-left: auto;
   margin-right: auto;
+  padding: 3vh 0;
 }
 .iconsWrapper{
   display: flex;

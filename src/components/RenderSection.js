@@ -26,7 +26,8 @@ const RenderSection = ({
   };
   return (
     <Link to={`../${sectionLink}`}>
-      <section className={`mainSection mainSection-${sectionPosition}`}>
+
+      <section  className={`mainSection mainSection-${sectionPosition}`}>
         <Content />
       </section>
     </Link>

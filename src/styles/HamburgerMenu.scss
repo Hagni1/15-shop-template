@@ -6,13 +6,14 @@
  * @link https://github.com/jonsuh/hamburgers
  */
 .hamburger {
+  position: relative;
   padding: 30px 30px;
   @media (max-width: 768px) {
     display: inline-block;
   }
   display: none;
   cursor: pointer;
-  z-index: 2;
+  z-index: 3;
   transition-property: opacity, filter;
   transition-duration: 0.15s;
   transition-timing-function: linear;
@@ -96,17 +97,31 @@
 }
 
 .sideMenu {
+  @media (min-width: 768px) {
+    display: none;
+  }
+  
   transition: 0.5s;
   height: 100vh;
   position: fixed;
   z-index: 2;
+  width: 90%;
   top: 0;
-  left: -50vw;
+  right: -100vw;
   padding: 5vw;
   line-height: 8vh;
-  background-color: black;
+  background-color: #CB997E;
+  text-align: center;
   .active {
-    border-bottom: 2px solid white;
+       color: black;
+       font-weight: bold;
+    border-bottom: 2px solid black;
+    // border-bottom: 2px solid #495057;
+    &::after{
+      content: ' ';
+      background:  bottom 5px solid red;
+      width: 100%;
+    }
   }
   &:hover {
     color: white;
@@ -114,10 +129,22 @@
   ul {
     flex-direction: column;
     @media (max-width: 768px) {
+      background-color: #E0E2DB;
+      padding: 2vh;
+      margin-top: 5vh;
+      border-radius: 2vh;
       display: block;
+    }
+    li{
+      a{
+        @media (max-width: 768px) {
+          color: #495057;
+        }
+      }
     }
   }
 }
 .activeMenu {
-  left: 0;
+  right: 0;
 }
+

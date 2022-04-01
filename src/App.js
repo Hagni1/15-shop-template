@@ -1,8 +1,8 @@
-import Navigation from "./Navigation";
+import Navigation from "./components/Navigation";
 import { BrowserRouter as Router } from "react-router-dom";
-import "../styles/App.css";
-import Pages from "./Pages";
-import Footer from "./Footer";
+import "./styles/App.css";
+import Pages from "./components/Pages";
+import Footer from "./components/Footer";
 import { createContext, useEffect, useState } from "react";
 
 export const ShoppingContext =createContext()

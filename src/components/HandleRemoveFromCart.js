@@ -1,6 +1,15 @@
 import { Button } from "@mui/material";
 import { useContext } from "react";
-import { ShoppingContext } from "./App";
+import { ShoppingContext } from "../App";
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#a5b3b0',
+    },
+  },
+});
 
 const HandleRemoveFromCart = ({id,count}) => {
   const { shoppingCart, setShoppingCart } = useContext(ShoppingContext);
@@ -20,13 +29,16 @@ const HandleRemoveFromCart = ({id,count}) => {
   };
 
   return (
+    <ThemeProvider theme={theme}>
+
     <Button
       className="button"
       variant="contained"
       onClick={() => handleRemoveFromCart(id, count)}
     >
-      X
+      <span className="span">X</span>
     </Button>
+    </ThemeProvider>
   );
 };
 export default HandleRemoveFromCart;

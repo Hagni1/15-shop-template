@@ -1,13 +1,12 @@
 import { useState } from "react";
 import Hamburger from "react-hamburgers";
 import "../styles/HamburgerMenu.scss";
-import navigationData from "../data/navigationData.json";
 import NavigationItem from "./NavigationItem";
 
-const HamburgerMenu = () => {
+const HamburgerMenu = ({data}) => {
   const [isActive, setIsActive] = useState(false);
   return (
-    <div>
+    <div className="hamburgerWrapper" > 
       <Hamburger
         active={isActive}
         type="slider"
@@ -17,8 +16,9 @@ const HamburgerMenu = () => {
       
         <nav className={isActive? 'sideMenu activeMenu':'sideMenu'}>
           <ul>
-            {navigationData.map((data) => (
+            {data.map((data) => (
               <NavigationItem
+                click={()=>setIsActive(false)}
                 key={data.navName}
                 navLink={data.navLink}
                 navName={data.navName}

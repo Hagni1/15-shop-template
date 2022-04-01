@@ -5,11 +5,13 @@
     justify-content: center;
 }
 .productArticle{
+    padding: 2vh;
     margin: 5vh;
     max-width: 55vh;
 
 
     img{
+        border-radius: 15x;
         width: 100%;
         height: 80%;
     }
@@ -18,8 +20,22 @@
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
+     @media (max-width: 480px){
+         justify-content: center;
+         p{
+             margin:2vh
+         }
+      }
+     align-items: center;
+     .productButton{
+         height: 7vh;
+     }
+     span{
+         color: white;
+     }
      p{
          padding: 0 0.5vh;
+         
      }
     }
 }

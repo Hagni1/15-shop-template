@@ -18,9 +18,11 @@
     width: 90%;
     margin: 1vh auto;
   }
-  background-color: #888;
+  border-bottom: 5px solid white;
+  background-color: #E0E2DB;
   display: flex;
   align-items: center;
+  border-radius: 2vh;
   font-size: 3vh;
   @media (min-width: 768px){
     max-width: 25vw;
@@ -29,7 +31,6 @@
   }
   margin: 1vh;
 
-  border-bottom: 3px solid black;
   //   margin: 2.5vw;
   transition: 0.5s ease;
   img {
@@ -37,17 +38,22 @@
       height: 25vh;
     }
     width: 50%;
+    border-radius: 2vh;
 
   }
   &:hover {
-    transform: scaleY(1.05);
-    transform: scaleX(1.05);
+    border-bottom: 5px solid black;
+    img{
+      transition: 0.3 ease;
+      filter: blur(1.5px);
+    }
+
   }
   
   h3 {
     width: 200px;
     text-align: center;
     flex-grow: 1;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
   }
 }

@@ -1,7 +1,17 @@
 import { Button } from "@mui/material";
-import { useContext } from "react";
+import { lazy, useContext } from "react";
 import "../styles/RenderProduct.scss";
-import { ShoppingContext } from "./App";
+import { ShoppingContext } from "../App";
+
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#a5b3b0',
+    },
+  },
+});
 
 const RenderProduct = ({ productImg, productName, productPrice, id }) => {
   const { shoppingCart, setShoppingCart } = useContext(ShoppingContext);
@@ -30,19 +40,24 @@ const RenderProduct = ({ productImg, productName, productPrice, id }) => {
       <img
         src={require(`../images/products/${productImg}`)}
         alt={productName}
+        loading={lazy}
       />
       <div className="productDescript">
         <p>{productName}</p>
         <p>{`${productPrice}$`}</p>
+        <ThemeProvider theme={theme}>
         <Button
+          size='small'
           className="productButton"
           variant="contained"
           onClick={() =>
             handleAddToCart(productName, productPrice, productImg, id)
           }
+          color="primary"
         >
-          Add to Cart
+          <span>Add to Cart</span>
         </Button>
+        </ThemeProvider>
       </div>
     </article>
   );

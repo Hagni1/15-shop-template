@@ -1,8 +1,17 @@
 import { Button } from "@mui/material";
 import { useContext, useState } from "react";
-import { ShoppingContext } from "./App";
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { ShoppingContext } from "../App";
 import "../styles/CartSummary.scss";
 import OrderConfirmation from "./OrderConfirmation";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#a5b3b0',
+    },
+  },
+});
 
 const CartSummary = () => {
   const { shoppingCart, setShoppingCart } = useContext(ShoppingContext);
@@ -27,13 +36,19 @@ const CartSummary = () => {
       )}
       {totalCost > 0 && <h2>total: {totalCost}$</h2>}
       {totalCost > 0 && (
+        <ThemeProvider theme={theme}>
         <Button
+            color="primary"
+            size="large"
           className="buttonCartSummary"
           variant="contained"
           onClick={() => handleOrderConfirmation()}
         >
-          Order
+            <span>
+              Order           
+            </span> 
         </Button>
+        </ThemeProvider>
       )}
     </div>
   );

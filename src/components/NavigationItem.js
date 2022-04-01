@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
-const NavigationItem = ({navLink,navName}) => {
+const NavigationItem = ({navLink,navName, click}) => {
   return (
     <li>
-      <NavLink to={`/${navLink}`}> {navName}</NavLink>
+      <NavLink onClick={click} to={`/${navLink}`}> {navName}</NavLink>
     </li>
   );
 };
