@@ -4,7 +4,7 @@ import RenderProduct from "../components/RenderProduct";
 
 const Main = ({data,section}) => {
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [])
     return ( 
         <section className="productWrapper">

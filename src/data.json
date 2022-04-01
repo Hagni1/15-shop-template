@@ -94,22 +94,17 @@
                     "productPrice": "30"
                   },
                   {
-                    "id": "19",
-                    "productImg": "pants/2.jpg",
-                    "productName": "Light Brown Pants",
-                    "productPrice": "32"
+                    "id": "21",
+                    "productImg": "pants/4.jpg",
+                    "productName": "Brown Pants",
+                    "productPrice": "39"
                   },
+
                   {
                     "id": "20",
                     "productImg": "pants/3.jpg",
                     "productName": "Black Pants",
                     "productPrice": "35"
-                  },
-                  {
-                    "id": "21",
-                    "productImg": "pants/4.jpg",
-                    "productName": "Brown Pants",
-                    "productPrice": "39"
                   },
                   {
                     "id": "22",
@@ -122,6 +117,12 @@
                     "productImg": "pants/6.jpg",
                     "productName": "Dark Brown Pants",
                     "productPrice": "36"
+                  },
+                  {
+                    "id": "19",
+                    "productImg": "pants/2.jpg",
+                    "productName": "Light Brown Pants",
+                    "productPrice": "32"
                   }
                 ]
               },

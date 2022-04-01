@@ -49,7 +49,7 @@ const RenderProduct = ({ productImg, productName, productPrice, id }) => {
         <Button
           size='small'
           className="productButton"
-          variant="contained"
+          variant="outlined"
           onClick={() =>
             handleAddToCart(productName, productPrice, productImg, id)
           }

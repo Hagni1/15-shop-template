@@ -86,6 +86,10 @@
 }
 
 .hamburger--slider.is-active .hamburger-inner {
+  @media (max-width: 768px) {
+    position: fixed;
+    top:4vh
+  }
   transform: translate3d(0, 10px, 0) rotate(45deg);
 }
 .hamburger--slider.is-active .hamburger-inner::before {

@@ -8,6 +8,10 @@
     width: 50vw;
     height: 40vh;
     background-color: #909090;
+    @media (max-width: 768px){
+        width: 80vw;
+        left: 10vw;
+      }
 }
 .buttonOrderConfirmation{
     height: 3vh;

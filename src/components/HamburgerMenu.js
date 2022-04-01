@@ -6,7 +6,8 @@ import NavigationItem from "./NavigationItem";
 const HamburgerMenu = ({data}) => {
   const [isActive, setIsActive] = useState(false);
   return (
-    <div className="hamburgerWrapper" > 
+    <div
+      className={isActive ? 'hamburgerWrapper activeHamburger' : 'hamburgerWrapper'} > 
       <Hamburger
         active={isActive}
         type="slider"

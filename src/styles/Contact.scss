@@ -30,6 +30,9 @@
     padding: 25px;
   }
   iframe {
+    @media (max-width: 768px) {
+      min-width: 80%;
+    }
     max-width: 800px;
     min-width: 50vw;
     height: 300px;

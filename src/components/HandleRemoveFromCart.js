@@ -22,7 +22,6 @@ const HandleRemoveFromCart = ({id,count}) => {
       setShoppingCart(filteredShoppingCart);
     } else {
       const index = newShoppingCart.findIndex((item) => item.id === id);
-      console.log(index);
       newShoppingCart[index].count = newShoppingCart[index].count - 1;
       setShoppingCart(newShoppingCart);
     }

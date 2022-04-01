@@ -16,13 +16,9 @@ const AddToCartAlert = () => {
 
   useEffect(() => {
     if (
-      didMount.current &&
-      shoppingCart.length !==
-        JSON.parse(localStorage.getItem("shopCart")).length
+      didMount.current
     ) {
       setShowElement(true);
-      console.log(localStorage.getItem("shopCart"), "local");
-      console.log(shoppingCart.length, "cart");
     } else {
       didMount.current = true;
     }
