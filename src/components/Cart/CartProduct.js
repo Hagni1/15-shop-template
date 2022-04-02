@@ -5,7 +5,7 @@ const CartProduct = ({ productImg, productPrice, productName, count, id }) => {
   return (
     <article className="CartProduct">
       <img
-        src={require(`../images/products/${productImg}`)}
+        src={require(`../../images/products/${productImg}`)}
         alt={productName}
       />
       <h2>{productName}</h2>

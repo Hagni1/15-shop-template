@@ -1,6 +1,5 @@
 import { Button } from "@mui/material";
-import "../styles/OrderConfirmation.scss";
-
+import "../../styles/Cart/OrderConfirmation.scss";
 const OrderConfirmation = ({ totalCost, setIsActive }) => {
   return (
     <div className="orderConfirmation">

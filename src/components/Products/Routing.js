@@ -1,8 +1,8 @@
 import { Route, Routes, useLocation } from "react-router-dom";
-import Cart from "../Pages/Cart";
-import Home from "../Pages/Home";
-import data from "../data.json";
-import "../styles/Pages.scss";
+import Cart from "../Cart/Cart";
+import Home from "../Home/Home";
+import data from "../../data.json";
+import "../../styles/Products/Routing.scss";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import Main from "./Main";
 

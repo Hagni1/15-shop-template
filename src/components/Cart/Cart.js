@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { ShoppingContext } from "../App";
-import CartProduct from "../components/CartProduct";
-import CartSummary from "../components/CartSummary";
-import '../styles/Cart.scss'
+import { ShoppingContext } from "../../App";
+import CartProduct from "../../components/Cart/CartProduct";
+import CartSummary from "../../components/Cart/CartSummary";
+import '../../styles/Cart/Cart.scss'
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 const Cart = () => {
   const { shoppingCart } = useContext(ShoppingContext);

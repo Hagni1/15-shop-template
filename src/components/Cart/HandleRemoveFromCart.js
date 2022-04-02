@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import { useContext } from "react";
-import { ShoppingContext } from "../App";
+import { ShoppingContext } from "../../App";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const theme = createTheme({

@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import logo from "../images/logo.png";
-import "../styles/Navigation.scss";
-import { ShoppingContext } from "../App";
-import data from "../data.json"
+import logo from "../../images/logo.png";
+import "../../styles/Navigation/Navigation.scss";
+import { ShoppingContext } from "../../App";
+import data from "../../data.json"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import NavigationItem from "./NavigationItem";

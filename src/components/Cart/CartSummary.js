@@ -1,8 +1,8 @@
 import { Button } from "@mui/material";
 import { useContext, useState } from "react";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { ShoppingContext } from "../App";
-import "../styles/CartSummary.scss";
+import { ShoppingContext } from "../../App";
+import "../../styles/Cart/CartSummary.scss";
 import OrderConfirmation from "./OrderConfirmation";
 
 const theme = createTheme({

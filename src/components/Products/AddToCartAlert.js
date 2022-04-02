@@ -1,7 +1,7 @@
 import { Alert } from "@mui/material";
 import React, { useContext, useEffect, useRef, useState } from "react";
-import { ShoppingContext } from "../App";
-import "../styles/AddToCartAlert.scss";
+import { ShoppingContext } from "../../App";
+import "../../styles/Products/AddToCartAlert.scss";
 
 const AddToCartAlert = () => {
   const [showElement, setShowElement] = useState(false);

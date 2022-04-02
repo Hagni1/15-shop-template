@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Hamburger from "react-hamburgers";
-import "../styles/HamburgerMenu.scss";
+import "../../styles/Navigation/HamburgerMenu.scss";
 import NavigationItem from "./NavigationItem";
 
 const HamburgerMenu = ({data}) => {

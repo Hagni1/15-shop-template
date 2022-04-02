@@ -1,7 +1,7 @@
-import Contact from "../components/Contact";
-import "../styles/Home.scss";
-import data from "../data.json";
-import RenderSection from "../components/RenderSection";
+import Contact from "./Contact";
+import "../../styles/Home/Home.scss";
+import data from "../../data.json";
+import RenderSection from "./RenderSection";
 
 const Home = () => {
   const newData = [...data[2].data];

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import AddToCartAlert from "../components/AddToCartAlert";
-import RenderProduct from "../components/RenderProduct";
+import AddToCartAlert from "../../components/Products/AddToCartAlert";
+import RenderProduct from "./RenderProduct";
 
 const Main = ({data,section}) => {
   useEffect(() => {

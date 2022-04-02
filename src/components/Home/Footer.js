@@ -1,7 +1,7 @@
 import { faEnvelopeOpen } from '@fortawesome/free-regular-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import '../styles/Footer.scss'
+import '../../styles/Home/Footer.scss'
 const Footer = () => {
     return ( 
       <footer>
@@ -10,7 +10,7 @@ const Footer = () => {
         <FontAwesomeIcon icon={faPhone} />
         +48 123 456 789
       </p>
-            <img src={require('../images/logo.png')} alt="logo" />
+            <img src={require('../../images/logo.png')} alt="logo" />
             <p>
         {" "}
         <FontAwesomeIcon icon={faEnvelopeOpen} />

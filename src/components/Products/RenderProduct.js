@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import { lazy, useContext } from "react";
-import "../styles/RenderProduct.scss";
-import { ShoppingContext } from "../App";
+import "../../styles/Products/RenderProduct.scss";
+import { ShoppingContext } from "../../App";
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
@@ -38,7 +38,7 @@ const RenderProduct = ({ productImg, productName, productPrice, id }) => {
   return (
     <article className="productArticle">
       <img
-        src={require(`../images/products/${productImg}`)}
+        src={require(`../../images/products/${productImg}`)}
         alt={productName}
         loading={lazy}
       />

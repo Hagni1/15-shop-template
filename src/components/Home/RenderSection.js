@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/RenderSection.scss";
+import "../../styles/Home/RenderSection.scss";
 
 const RenderSection = ({
   sectionPosition,
@@ -12,13 +12,13 @@ const RenderSection = ({
       return (
         <>
           <h3>{sectionName}</h3>
-          <img src={require(`../${imgLink}`)} alt={sectionName} />
+          <img src={require(`../../${imgLink}`)} alt={sectionName} />
         </>
       );
     } else {
       return (
         <>
-          <img src={require(`../${imgLink}`)} alt={sectionName} />
+          <img src={require(`../../${imgLink}`)} alt={sectionName} />
           <h3>{sectionName}</h3>
         </>
       );
