@@ -10,8 +10,10 @@
   padding: 30px 30px;
   @media (max-width: 768px) {
     display: inline-block;
+    visibility: visible;
   }
-  display: none;
+  // display: none;
+  visibility: hidden;
   cursor: pointer;
   z-index: 3;
   transition-property: opacity, filter;
