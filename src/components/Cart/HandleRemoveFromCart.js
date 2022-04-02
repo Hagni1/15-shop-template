@@ -1,12 +1,12 @@
 import { Button } from "@mui/material";
 import { useContext } from "react";
-import { ShoppingContext } from "../../App";
+import { ShoppingContext } from "../../context/ShoppingContext";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#a5b3b0',
+      main: '#EFE7DB',
     },
   },
 });

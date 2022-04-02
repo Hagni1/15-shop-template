@@ -1,14 +1,14 @@
 import { Button } from "@mui/material";
 import { lazy, useContext } from "react";
 import "../../styles/Products/RenderProduct.scss";
-import { ShoppingContext } from "../../App";
+import { ShoppingContext } from "../../context/ShoppingContext";
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#a5b3b0',
+      main: '#EFE7DB',
     },
   },
 });
@@ -49,7 +49,7 @@ const RenderProduct = ({ productImg, productName, productPrice, id }) => {
         <Button
           size='small'
           className="productButton"
-          variant="outlined"
+            variant="outlined"
           onClick={() =>
             handleAddToCart(productName, productPrice, productImg, id)
           }

@@ -19,14 +19,13 @@
     margin: 1vh auto;
   }
   border-bottom: 5px solid white;
-  background-color: #E0E2DB;
+  background-color: #EFE7DB;
   display: flex;
   align-items: center;
   border-radius: 2vh;
   font-size: 3vh;
   @media (min-width: 768px){
-    max-width: 25vw;
-    min-width: 350px;
+    width: 20vw;
 
   }
   margin: 1vh;
