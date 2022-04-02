@@ -11,7 +11,7 @@ const Pages = () => {
   const location = useLocation();
   return (
     <TransitionGroup>
-      <CSSTransition key={location.key} timeout={1000} classNames="fade">
+      <CSSTransition key={location.key} timeout={1000} classNames="page">
         <Routes>
           <Route path="*" element={<Home />} />
           {newData.map((item) => (

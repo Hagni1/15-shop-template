@@ -1,21 +1,21 @@
-.fade-enter {
+  .page-enter {
     opacity: 0;
-    transform: translate(0, 25px);
-    z-index: 1;
+    transform: scale(1.05);
   }
-  .fade-enter.fade-enter-active {
-    opacity: 1;
-    transform: translate(0, 0);
   
-    transition: opacity 500ms ease-out, transform 600ms ease;
-  }
-  .fade-exit {
+  .page-enter-active {
     opacity: 1;
-    transform: translate(0, 0);
+    transform: scale(1);
+    transition: opacity 400ms, transform 400ms;
   }
-  .fade-exit.fade-exit-active {
+  
+  .page-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .page-exit-active {
     opacity: 0;
-    transform: translate(0, 30px);
-  
-    transition: opacity 500ms ease-out, transform 600ms ease;
+    transform: scale(0.9);
+    transition: opacity 400ms, transform 400ms;
   }
